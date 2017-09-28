@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)][Apache 2.0]
+
 NIST Data Mirror
 ================
 
@@ -33,11 +35,21 @@ or for a complete list of command line options:
 ```
 nist-data-mirror is Copyright (c) Steve Springett and Brent Whitmore. All Rights Reserved.
 
-Permission to modify and redistribute is granted under the terms of the Apache 2.0 license. See the [LICENSE] [Apache 2.0] file for the full license.
+Dependency-Check is Copyright (c) Jeremy Long. All Rights Reserved.
+
+Portions of nist-data-mirror are Copyright 2015-2016 Kaitai Project, released under the MIT license
+
+Permission to modify and redistribute nist-data-mirror, including any modifications and extensions to software originally released under MIT license, is granted under the terms of the Apache 2.0 license. See the [LICENSE] [Apache 2.0] file for the full license.
+
+  [OWASP Dependency-Check]: https://www.owasp.org/index.php/OWASP_Dependency_Check
+  [Apache 2.0]: https://github.com/stevespringett/nist-data-mirror/blob/master/LICENSE
 
 ---------------------------
 From Steve's original page:
 ---------------------------
+[![Build Status](https://travis-ci.org/stevespringett/nist-data-mirror.svg?branch=master)](https://travis-ci.org/stevespringett/nist-data-mirror)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21c46e93bdbe4e6f99085da9ece477e3)](https://www.codacy.com/app/stevespringett/nist-data-mirror?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=stevespringett/nist-data-mirror&amp;utm_campaign=Badge_Grade)
+[![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)][Apache 2.0]
 
 A simple Java command-line utility to mirror the NVD (CPE/CVE XML and JSON) data from NIST.
 
@@ -87,3 +99,7 @@ nist-data-mirror is Copyright (c) Steve Springett. All Rights Reserved.
 Dependency-Check is Copyright (c) Jeremy Long. All Rights Reserved.
 
 Permission to modify and redistribute is granted under the terms of the Apache 2.0 license. See the [LICENSE] [Apache 2.0] file for the full license.
+
+  [OWASP Dependency-Check]: https://www.owasp.org/index.php/OWASP_Dependency_Check
+  [Apache 2.0]: https://github.com/stevespringett/nist-data-mirror/blob/master/LICENSE
+  [pre-compiled binaries]: https://github.com/stevespringett/nist-data-mirror/releases
